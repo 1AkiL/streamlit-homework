@@ -1,0 +1,26 @@
+# Module 15: Trustworthy AI Explainer Dashboard
+# Requirements for the Streamlit app (streamlit_app_template.py).
+# Streamlit Community Cloud installs this file on deploy.
+# The Gradio prototype has its own file: requirements-gradio.txt
+
+# UI Framework
+streamlit>=1.40.0
+
+# LLM Integration
+openai>=1.0.0
+langchain-openai>=0.3.0
+langchain-core>=0.3.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+plotly>=5.17.0
+
+# Explainability
+lime>=0.2.0.1
+scikit-learn>=1.3.0
+
+# Utilities
+python-dotenv>=1.0.0  # For local API_KEY.env; Cloud uses st.secrets
